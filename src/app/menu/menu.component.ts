@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Dish } from '../shared/dish';
-import { DishDetailComponent } from '../dishdetail/dish-detail/dish-detail.component';
+
 
 const DISHES: Dish [] =[
   {

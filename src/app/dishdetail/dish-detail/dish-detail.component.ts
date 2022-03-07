@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuComponent } from 'src/app/menu/menu.component';
+import { Dish } from 'src/app/shared/dish';
 
 const DISH = {
   id: '0',
@@ -49,8 +51,11 @@ const DISH = {
   styleUrls: ['./dish-detail.component.scss']
 })
 export class DishDetailComponent implements OnInit {
+
   dish = DISH;
+
   constructor() { }
+
 
   ngOnInit(): void {
   }
